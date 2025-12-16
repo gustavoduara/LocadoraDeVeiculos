@@ -15,4 +15,13 @@
     <None Include="LocadoraDeVeiculos.WebApi.csproj.user" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.22" />
+    <PackageReference Include="Microsoft.OpenApi" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LocadoraDeVeiculos.Infaestrutura.Orm\LocadoraDeVeiculos.Infaestrutura.Orm.csproj" />
+  </ItemGroup>
+
 </Project>

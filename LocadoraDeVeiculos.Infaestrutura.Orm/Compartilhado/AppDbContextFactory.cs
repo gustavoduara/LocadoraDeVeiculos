@@ -1,4 +1,4 @@
-﻿using LocadoraDeVeiculos.Infaestrutura.Orm.Compartilhado;
+﻿using LocadoraDeVeiculos.Infraestrutura.Orm.Compartilhado;
 using Microsoft.EntityFrameworkCore;
 
 namespace LocadoraDeVeiculos.Infraestrutura.Orm.Compartilhado;

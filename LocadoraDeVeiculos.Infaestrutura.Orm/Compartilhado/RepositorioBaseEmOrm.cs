@@ -1,5 +1,5 @@
 ﻿using LocadoraDeVeiculos.Dominio.Compartilhado;
-using LocadoraDeVeiculos.Infaestrutura.Orm.Compartilhado;
+using LocadoraDeVeiculos.Infraestrutura.Orm.Compartilhado;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 

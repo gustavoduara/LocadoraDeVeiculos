@@ -1,5 +1,4 @@
-﻿using LocadoraDeVeiculos.Infaestrutura.Orm.Compartilhado;
-using LocadoraDeVeiculos.Infraestrutura.Orm.Compartilhado;
+﻿using LocadoraDeVeiculos.Infraestrutura.Orm.Compartilhado;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

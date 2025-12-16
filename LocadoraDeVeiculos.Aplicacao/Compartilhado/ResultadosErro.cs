@@ -1,4 +1,4 @@
-﻿﻿using FluentResults;
+﻿using FluentValidation.Results;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace LocadoraDeVeiculos.Aplicacao.Compartilhado;
