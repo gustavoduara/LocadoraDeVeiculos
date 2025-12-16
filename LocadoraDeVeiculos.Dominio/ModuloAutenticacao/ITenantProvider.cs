@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace LocadoraDeVeiculos.Dominio.ModuloAutenticacao;
 
-namespace LocadoraDeVeiculos.Dominio.ModuloAutenticacao
+public interface ITenantProvider
 {
-    internal interface ITenantProvider
-    {
-    }
+    Guid? EmpresaId { get; }
+    bool EstaNoCargo(string cargo);
 }

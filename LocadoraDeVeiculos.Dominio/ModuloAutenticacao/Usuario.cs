@@ -1,12 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Identity;
 
-namespace LocadoraDeVeiculos.Dominio.ModuloAutenticacao
+namespace LocadoraDeVeiculos.Dominio.ModuloAutenticacao;
+
+public class Usuario : IdentityUser<Guid>
 {
-    internal class Usuario
+    public string FullName { get; set; }
+    public Guid AccessTokenVersionId { get; set; } = Guid.Empty;
+
+    public Usuario()
     {
+        Id = Guid.NewGuid();
+        EmailConfirmed = true;
     }
 }
+
+public record UsuarioAutenticado(
+    Guid Id,
+    string NomeCompleto,
+    string Email,
+    CargoUsuario Cargo
+);

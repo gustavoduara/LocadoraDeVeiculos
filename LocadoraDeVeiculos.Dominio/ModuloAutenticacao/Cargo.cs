@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Identity;
 
-namespace LocadoraDeVeiculos.Dominio.ModuloAutenticacao
-{
-    internal class Cargo
-    {
-    }
-}
+namespace LocadoraDeVeiculos.Dominio.ModuloAutenticacao;
+
+public class Cargo : IdentityRole<Guid>;
